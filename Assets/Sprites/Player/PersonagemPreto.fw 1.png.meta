@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 72e294397a0de0f4898857335d3b50b5
+timeCreated: 1471539961
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PersonagemPreto.fw 1_0
+    21300002: PersonagemPreto.fw 1_1
+    21300004: PersonagemPreto.fw 1_2
+    21300006: PersonagemPreto.fw 1_3
+    21300008: PersonagemPreto.fw 1_4
+    21300010: PersonagemPreto.fw 1_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PersonagemPreto.fw 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 237}
+        - {x: -70, y: 237}
+        - {x: -70, y: 140}
+        - {x: -68, y: 138}
+        - {x: -52, y: 132}
+        - {x: -48, y: 0}
+        - {x: 39, y: 0}
+        - {x: 69, y: 139}
+    - name: PersonagemPreto.fw 1_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 237}
+        - {x: -67, y: 140}
+        - {x: -65, y: 138}
+        - {x: -43, y: 53}
+        - {x: -41, y: 51}
+        - {x: -23, y: 2}
+        - {x: -21, y: 0}
+        - {x: 31, y: 0}
+        - {x: 61, y: 49}
+        - {x: 72, y: 134}
+        - {x: 72, y: 237}
+    - name: PersonagemPreto.fw 1_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 237}
+        - {x: -72, y: 140}
+        - {x: -70, y: 138}
+        - {x: -48, y: 53}
+        - {x: -46, y: 51}
+        - {x: -19, y: 2}
+        - {x: -17, y: 0}
+        - {x: 19, y: 0}
+        - {x: 57, y: 47}
+        - {x: 67, y: 134}
+        - {x: 67, y: 237}
+    - name: PersonagemPreto.fw 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 237}
+        - {x: -70, y: 140}
+        - {x: -68, y: 138}
+        - {x: -46, y: 53}
+        - {x: -44, y: 51}
+        - {x: -23, y: 2}
+        - {x: -21, y: 0}
+        - {x: 31, y: 0}
+        - {x: 58, y: 49}
+        - {x: 69, y: 134}
+        - {x: 69, y: 237}
+    - name: PersonagemPreto.fw 1_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 237}
+        - {x: -67, y: 237}
+        - {x: -67, y: 140}
+        - {x: -65, y: 138}
+        - {x: -50, y: 131}
+        - {x: -45, y: 0}
+        - {x: 43, y: 0}
+        - {x: 72, y: 139}
+    - name: PersonagemPreto.fw 1_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 237}
+        - {x: -68, y: 140}
+        - {x: -66, y: 138}
+        - {x: -44, y: 53}
+        - {x: -42, y: 51}
+        - {x: -24, y: 2}
+        - {x: -22, y: 0}
+        - {x: 30, y: 0}
+        - {x: 60, y: 49}
+        - {x: 71, y: 134}
+        - {x: 71, y: 237}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

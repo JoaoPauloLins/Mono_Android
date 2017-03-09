@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 7bca4f70343ffa5428b445a94e38b252
+timeCreated: 1473702601
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "Cidade_Pr\xE9dio2_0"
+    21300002: "Cidade_Pr\xE9dio2_1"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "Cidade_Pr\xE9dio2_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 2048
+        height: 378
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 994, y: -116}
+        - {x: 994, y: -85}
+        - {x: 1009, y: -85}
+        - {x: 1011, y: -83}
+        - {x: 1011, y: -52}
+        - {x: 1024, y: -52}
+        - {x: 1024, y: 0}
+        - {x: -1024, y: 0}
+        - {x: -1024, y: -52}
+        - {x: -1010, y: -52}
+        - {x: -1010, y: -83}
+        - {x: -1008, y: -85}
+        - {x: -994, y: -85}
+        - {x: -994, y: -116}
+        - {x: -992, y: -118}
+        - {x: -977, y: -118}
+        - {x: -977, y: -378}
+        - {x: 978, y: -378}
+        - {x: 978, y: -118}
+        - {x: 992, y: -118}
+    - name: "Cidade_Pr\xE9dio2_1"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2048
+        height: 378
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 994, y: -85}
+        - {x: 1008, y: -85}
+        - {x: 1010, y: -83}
+        - {x: 1010, y: -52}
+        - {x: 1024, y: -52}
+        - {x: 1024, y: 0}
+        - {x: -1024, y: 0}
+        - {x: -1024, y: -52}
+        - {x: -1010, y: -52}
+        - {x: -1010, y: -83}
+        - {x: -1008, y: -85}
+        - {x: -994, y: -85}
+        - {x: -994, y: -116}
+        - {x: -992, y: -118}
+        - {x: -977, y: -118}
+        - {x: -977, y: -378}
+        - {x: 978, y: -378}
+        - {x: 978, y: -118}
+        - {x: 992, y: -118}
+        - {x: 994, y: -116}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

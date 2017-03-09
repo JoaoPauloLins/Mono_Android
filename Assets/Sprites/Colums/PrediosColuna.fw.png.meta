@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 631bcf083a707674699e5019ce8a71b4
+timeCreated: 1472582512
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PrediosColuna.fw_0
+    21300002: PrediosColuna.fw_1
+    21300004: PrediosColuna.fw_2
+    21300006: PrediosColuna.fw_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PrediosColuna.fw_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 688
+        height: 2576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -256, y: 1917}
+        - {x: -256, y: 0.000061035156}
+        - {x: 256, y: 0.000061035156}
+        - {x: 256, y: 1917}
+    - name: PrediosColuna.fw_1
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 688
+        height: 2576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -255.5062, y: 1917}
+        - {x: -255.5062, y: 0.000061035156}
+        - {x: 257.4938, y: 0.000061035156}
+        - {x: 257.4938, y: 1917}
+    - name: PrediosColuna.fw_2
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 688
+        height: 2576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.51239, y: 0.000061035156}
+        - {x: 67.48761, y: 0.000061035156}
+        - {x: 67.48761, y: 426.00006}
+        - {x: 257.4876, y: 426.00006}
+        - {x: 257.4876, y: 1917}
+        - {x: -255.51239, y: 1917}
+        - {x: -255.51239, y: 0.000061035156}
+        - {x: -252.51239, y: 0.000061035156}
+        - {x: -252.51239, y: 426.00006}
+        - {x: -54.51239, y: 426.00006}
+    - name: PrediosColuna.fw_3
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 0
+        width: 688
+        height: 2576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -255.51855, y: 1917}
+        - {x: -255.51855, y: 426.00006}
+        - {x: -54.518555, y: 426.00006}
+        - {x: -54.518555, y: 0.000061035156}
+        - {x: 67.481445, y: 0.000061035156}
+        - {x: 67.481445, y: 426.00006}
+        - {x: 257.48145, y: 426.00006}
+        - {x: 257.48145, y: 1917}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
