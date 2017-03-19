@@ -7,6 +7,7 @@ public class executaToque : MonoBehaviour {
     private Background _background;
     private Player _player;
     private comandoToque _toque;
+	private Texto _texto;
 
     public	string		nomeBotao;
     public string nomeFases;
@@ -16,6 +17,7 @@ public class executaToque : MonoBehaviour {
 
         _background = FindObjectOfType<Background>();
         _player = FindObjectOfType<Player>();
+		_texto = FindObjectOfType<Texto> ();
 
     }
 	
@@ -24,96 +26,65 @@ public class executaToque : MonoBehaviour {
 
 	}
 
-	//public void BeganFirst(){
-	//	switch (nomeBotao) {
-	//	case "cor":
- //               _background.ChangeColor();
-	//		    break;
-
- //           case "pulo":
- //               _player.Jump();
- //               break;
-	//	}
-	//}
-
- //   public void EndedFirst(){
-	//	switch (nomeBotao) {
-	//	case "esquerda":
- //               _player.Walk(0);
- //               break;
-	//	case "direita":
- //               _player.Walk(0);
- //               break;
-	//	}
-	//}
-
- //   public void StationaryFirst(){
-	//	switch (nomeBotao) {
-	//	case "esquerda":
- //               _player.Walk(-1);
-	//		    break;
-	//	case "direita":
- //               _player.Walk(1);
-	//		    break;
-	//	}
-	//}
-
- //   public void BeganSecond()
- //   {
- //       switch (nomeBotao)
- //       {
- //           case "cor":
- //               _background.ChangeColor();
- //               break;
-
- //           case "pulo":
- //               _player.Jump();
- //               break;
- //       }
- //   }
-
     public void Began()
     {
-        switch (nomeBotao)
-        {
-            case "cor":
-                _background.ChangeColor();
-                break;
+		if (GameController.currentState == gameState.PLAY){
+			switch (nomeBotao)
+			{
+			case "cor":
+				_background.ChangeColor();
+				break;
 
-            case "pulo":
-                _player.Jump();
-                break;
+			case "pulo":
+				_player.Jump();
+				break;
 
-            case "fase":
-                SceneManager.LoadScene(nomeFases);
-                break;
-        }
+			case "fase":
+				SceneManager.LoadScene(nomeFases);
+				break;
+
+			case "texto":
+				_texto.ExecutaSoletrar ();
+				GameController.currentState = gameState.TEXTO;
+				break;
+			}
+		}
+		else if (GameController.currentState == gameState.TEXTO) {
+			if (nomeBotao == "texto") {
+				_texto.campoTexto.text = "";
+				GameController.currentState = gameState.PLAY;
+			}
+		}
     }
 
     public void Stationary()
     {
-        switch (nomeBotao)
-        {
-            case "esquerda":
-                _player.Walk(-1);
-                break;
-            case "direita":
-                _player.Walk(1);
-                break;
-        }
+		if (GameController.currentState == gameState.PLAY) {
+			switch (nomeBotao)
+			{
+			case "esquerda":
+				_player.Walk(-1);
+				break;
+			case "direita":
+				_player.Walk(1);
+				break;
+			}
+		}
     }
 
     public void Ended()
     {
-        switch (nomeBotao)
-        {
-            case "esquerda":
-                _player.Walk(0);
-                break;
-            case "direita":
-                _player.Walk(0);
-                break;
-        }
+		if (GameController.currentState == gameState.PLAY) {
+			switch (nomeBotao)
+			{
+			case "esquerda":
+				_player.Walk(0);
+				break;
+			case "direita":
+				_player.Walk(0);
+				break;
+			}
+		}
     }
 
 }

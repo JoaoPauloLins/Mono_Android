@@ -31,18 +31,8 @@ public class Texto : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter2D(Collider2D col){
+	public void ExecutaSoletrar(){
 
-		if (col.tag == "Player") {
-			StartCoroutine ("Soletrar", txt);
-		}
-
-	}
-
-	void OnTriggerExit2D(Collider2D col){
-
-		if (col.tag == "Player") {
-			campoTexto.text = "";
-		}
+		StartCoroutine ("Soletrar", txt);
 	}
 }

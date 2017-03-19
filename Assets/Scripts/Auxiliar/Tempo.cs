@@ -20,27 +20,28 @@ public class Tempo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (isRunning){
-			
-			if (segundos <= 0){
-				minutos -= 1;
-				segundos = 59;
-			}
+		if (GameController.currentState == gameState.PLAY) {
+			if (isRunning) {
+				
+				if (segundos <= 0) {
+					minutos -= 1;
+					segundos = 59;
+				}
 
-			if (segundos <= 9){
-				campoTexto.text = "0" + Mathf.RoundToInt(minutos).ToString() + ":0" + Mathf.RoundToInt(segundos).ToString();
-			}
-			else{
-				campoTexto.text = "0" + Mathf.RoundToInt(minutos).ToString() + ":" + Mathf.RoundToInt(segundos).ToString();
-			}
+				if (segundos <= 9) {
+					campoTexto.text = "0" + Mathf.RoundToInt (minutos).ToString () + ":0" + Mathf.RoundToInt (segundos).ToString ();
+				} else {
+					campoTexto.text = "0" + Mathf.RoundToInt (minutos).ToString () + ":" + Mathf.RoundToInt (segundos).ToString ();
+				}
 
 
-			if (segundos > 0){
-				segundos -= Time.deltaTime;
-			}
+				if (segundos > 0) {
+					segundos -= Time.deltaTime;
+				}
 
-			if (minutos <= 0 && segundos <= 0) {
-				isRunning = false;
+				if (minutos <= 0 && segundos <= 0) {
+					isRunning = false;
+				}
 			}
 		}
 		
