@@ -128,6 +128,32 @@ public class Player : MonoBehaviour {
 
     }
 
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		if (col.gameObject.tag == ETagName.Ground.GetDescription())
+		{
+			IsJumping = false;
+			IsGrounded = true;
+		}
+	}
+
+	void OnCollisionStay2D(Collision2D col)
+	{
+		if (col.gameObject.tag == ETagName.Ground.GetDescription())
+		{
+			IsGrounded = true;
+		}
+	}
+
+	void OnCollisionExit2D(Collision2D col)
+	{
+		if (col.gameObject.tag == ETagName.Ground.GetDescription())
+		{
+			IsGrounded = false;
+		}
+	}
+
+	/*
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == ETagName.Ground.GetDescription())
@@ -152,4 +178,5 @@ public class Player : MonoBehaviour {
             IsGrounded = false;
         }
     }
+    */
 }
