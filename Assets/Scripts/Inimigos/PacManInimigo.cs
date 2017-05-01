@@ -6,7 +6,7 @@ using Assets.Scripts.Auxiliar.MonoEnums;
 public class PacManInimigo : MonoBehaviour {
 
 	private Player _player;
-	public MovePlataform _move;
+	public MoveInimigo _move;
 
 	// Use this for initialization
 	void Start () {

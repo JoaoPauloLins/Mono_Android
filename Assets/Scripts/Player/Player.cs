@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
     private bool _transition;
 
     private BoxCheckpoint[] arrayCaixas;
+	private PlataformSlider[] arrayPlataformasMoveis;
 
     private DeathCounter _deathCounter;
     private CheckPoint _lastCheckPoint;
@@ -46,6 +47,7 @@ public class Player : MonoBehaviour {
         IsDead = false;
 
         arrayCaixas = FindObjectsOfType(typeof(BoxCheckpoint)) as BoxCheckpoint[];
+		arrayPlataformasMoveis = FindObjectsOfType (typeof(PlataformSlider)) as PlataformSlider[];
     }
 	
 	// Update is called once per frame
@@ -97,6 +99,7 @@ public class Player : MonoBehaviour {
             //_playerController.enabled = false;
             _deathCounter.IncreaseDeath();
             new WaitForSeconds(0.5f);
+
             this.transform.position = _lastCheckPoint.Position;
             //_playerController.enabled = true;
 
@@ -104,6 +107,10 @@ public class Player : MonoBehaviour {
             {
                 caixa.resetPosition();
             }
+
+			foreach (PlataformSlider plataforma in arrayPlataformasMoveis) {
+				plataforma.start = false;
+			}
 
             IsDead = false;
         }
